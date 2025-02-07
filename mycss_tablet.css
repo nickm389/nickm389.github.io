@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6d7296;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+
+h1 {
+    text-shadow: 3px 3px 5px rgba(13, 0, 199, 0.7);
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#title {
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+#education, #work, #programming, #interest, #fmovie_tv, #fwebsite, #projects #menu {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.profile-img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+div {
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: #e4e4e4;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+form a {
+    color: #00ccff;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #4a4f72;
+    }
+
+    .profile-container {
+        padding: 10px;
+    }
+}
+
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    .profile-container {
+        border: 1px solid black;
+        box-shadow: none;
+    }
+}
